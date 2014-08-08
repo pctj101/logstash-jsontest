@@ -1,0 +1,8 @@
+== README
+For: https://github.com/elasticsearch/logstash/issues/1583#issuecomment-50789844
+
+$ rails c
+
+Loading development environment (Rails 4.1.4)
+irb(main):001:0> puts LogStash::Event.new.to_json
+{"@version":"1","@timestamp":{"time":"2014-08-08T04:33:57.292Z"}}
